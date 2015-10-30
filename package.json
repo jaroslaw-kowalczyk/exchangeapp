@@ -1,0 +1,10 @@
+{
+  "name": "angular-nauka",
+  "description": "taki tam projekt do nauki",
+  "license": "MIT",
+  "dependencies": {
+    "angular-youtube-embed": "^1.1.1",
+    "express": "4.12.4",
+    "request": "2.55.0"
+  }
+}

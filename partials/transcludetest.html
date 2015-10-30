@@ -1,0 +1,8 @@
+<div ng-controller="TranscludeTestController as tt">
+    <transclude-test>
+        <p> My name is {{tt.surname}}.</p>
+    <transclude-test/>
+    <transclude-test>
+        <p> {{tt.name}} {{tt.surname}}.</p>
+    <transclude-test/>
+</div>

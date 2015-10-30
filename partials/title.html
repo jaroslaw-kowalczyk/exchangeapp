@@ -1,0 +1,15 @@
+<div ng-controller="TitleController as t">
+
+    <p>Current title: {{t.title}} <input ng-model="t.title"></p>
+
+    <p><button ng-click="t.setTitleFromService()">Ustaw tytuł z service</button></p>
+    <p>
+        <label>Title stars:</label>
+        <input type="checkbox" ng-model="t.starsTitle">
+    </p>
+    <p>
+        <label>Filter preview:</label>
+        {{t.title | stars : 3}}
+    </p>
+
+</div>

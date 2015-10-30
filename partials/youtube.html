@@ -1,0 +1,15 @@
+<div ng-controller="YoutubeController">
+    <p>
+        <youtube-video video-id="currentLink"></youtube-video>
+    </p>
+
+    <label>Choose from list:</label>
+    <select id="videoList">
+        <option ng-repeat="link in linksList" ng-click="setCurrentLink(link.id)">
+            {{link.title}}
+        </option>
+    </select>
+    <label>View another:</label>
+    <input type="text" ng-model="currentLink">
+
+</div>

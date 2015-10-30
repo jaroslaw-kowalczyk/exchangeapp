@@ -1,0 +1,33 @@
+.myGrid {
+    width: 960px;
+    height: 500px;
+}
+.hugeMargin{
+    margin-top: 40em;
+    margin-bottom: 40em;
+}
+header {
+    padding: 0 0.9375rem;
+}
+header a {
+    font-size: 13px;
+}
+.clock{
+    color: #fff;
+    line-height: 2.8125rem;
+    padding-right: 10px;
+}
+[ng-click^="setYellow"] {
+    margin: 5px 5px;
+}
+
+@media (max-width: 480px) {
+    #videoList {
+        width: 100%;
+    }
+}
+@media (min-width: 481px) {
+    #videoList {
+        width: 200px;
+    }
+}

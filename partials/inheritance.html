@@ -1,0 +1,17 @@
+<h3>inheritance</h3>
+<div ng-controller="parent">
+    <p>child controller</p>
+    <p>{{val}}</p>
+    <p><input type="text" ng-model="val"></p>
+    <div ng-controller="child">
+        <p>child controller</p>
+        <p>{{val}}</p>
+        <p><input type="text" ng-model="val"></p>
+
+    </div>
+</div>
+
+<h3>directive inheritance</h3>
+<parent>
+    <child></child>
+</parent>
