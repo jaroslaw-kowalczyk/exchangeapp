@@ -3,4 +3,6 @@ exchange app
 
 Install
 
-#bower install
+```
+bower install
+```
